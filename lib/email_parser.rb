@@ -13,7 +13,7 @@ class EmailParser
   
   def parse
     output = []
-    email_array = @emails.split(/[,\s]+/)
+    email_array = emails.split(/[,\s]+/)
     email_array.each do |value|
       output << value unless output.include?(value)
     end
