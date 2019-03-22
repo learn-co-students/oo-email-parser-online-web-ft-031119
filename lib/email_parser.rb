@@ -10,6 +10,6 @@ def initialize(emails)
 end
 
 def parse
-emails.split(/, | /).uniq
+emails.split("")
 end
 end
